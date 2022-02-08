@@ -1,0 +1,15 @@
+# CMPT 361 Graphic A1
+## by Ross Shen
+
+
+## Requirements
+✓ Tile and grid rendering and tile downward movements
+✓ Tile stack-up
+✓ Key stroke interaction and tile movements
+✓ Additional game logic (not quite)
+
+
+## Run program
+I used Node.js + Express framework to set up the game.
+Please have both installed and run `node app.js` in your command prompt.
+Then go to your browser type in `http://localhost:5050/ `.

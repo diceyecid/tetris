@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"
+          integrity="sha512-zhHQR0/H5SEBL3Wn6yYSaTTZej12z0hVZKOv3TwCUXT1z5qeqGcXJLLrbERYRScEDDpYIJhPC1fk31gqR783iQ=="
+          crossorigin="anonymous" defer>
+        </script>
+        <script type="module" src="game.js" defer></script>
+        <title>Tetris</title>
+    </head>
+    <body>
+        <h1>CMPT 361 Graphic A1 - A Tetris Game</h1>
+        <h2>by Ross Shen</h2>
+        <canvas id="canvas" width="320" height="620"></canvas>
+        <!-- <button id="start">
+            Press here to start the game.
+        </button> -->
+        <div id="keys">
+            <b> Arrow key to control: </b>
+            <ul> ← for left movements </ul>
+            <ul> → for right movements </ul>
+            <ul> ↑ for rotation </ul>
+            <ul> ↓ for accelerate downwards </ul>
+            <br>
+            <b> Other useful keys:</b>
+            <ul> 'q' for quit </ul>
+            <ul> 'r' for restart </ul>
+        </div>
+    </body>
+</html>
